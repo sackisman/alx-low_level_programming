@@ -5,11 +5,10 @@
  *
  * Return: Always 0
 */
-
 int main(void)
 {
-	char p[8] = "Main";
-	int i;
+
+        int i;
 	char p[] = _putchar";
 
 	for (i=0; i < 8; i++)
