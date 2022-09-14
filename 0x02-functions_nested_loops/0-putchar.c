@@ -1,19 +1,19 @@
 #include "main.h"
 
 /**
- * main - Entry point
+ * main - Entry print the word "_putchar"
  *
  * Return: Always 0
 */
 int main(void)
 {
 
-        
-	char *sh = "main";
+        int i;
+	char p[] = "_putchar";
 
-	while (*sh)
+	for (i = 0; i < 8; i++)
 	{
-		_putchar(*sh);
+		_putchar(p[i]);
 		sh++;
 	}
 	_putchar('/n');
