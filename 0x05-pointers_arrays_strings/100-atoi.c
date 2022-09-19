@@ -37,8 +37,8 @@ int _atoi(char *s)
 			break;
 		}
 		index++;
-		{
-		if (sign < 0)
-			res *= sign;
-		return (res);
-		}
+	}
+	if (sign < 0)
+		res *= sign;
+	return (res);
+}
